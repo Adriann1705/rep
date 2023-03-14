@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    flex-grow: 1;
+    line-height: 1.4;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.produktbody{
+    background-image: linear-gradient(red, yellow);
+}
+
+.menu{
+    background-color: green;
+    height: 50px;
+    text-align: center;
+    /* position: fixed;
+    width: 1920px; */
+}
+
+.info{
+    text-align: right;
+    margin: 5px;
+}
+
+.info a{
+    margin-right: 15px;
+}
+
+.banner{
+    background: #009579;
+}
+
+.bannercontent{
+    padding: 25px;
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.bannerright{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.bannerleft{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.kategorie{
+    background-color:blanchedalmond;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    float: left;
+}
+.kategorie a{
+    display: flex;
+    padding: 3px;
+    margin: 3px;
+}
+
+.produkty{
+    margin: 0 auto;
+}
+
+.produkt{
+    display: flex;
+    height: 246px;
+    width: 250px;
+    border: 2px black solid;
+    float: left;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+}
+
+.produkttekst{
+    font-size: 16px;
+    max-width: 175px;
+    /* position: absolute; */
+    
+}
+.produkt img{
+    align-self: last baseline;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    
+}
+
+.cena{
+    /* align-self: right; */
+    font-size: 29px;
+    text-align: right;
+    position: relative;
+    left: 25px;
+}
+
+.addshopping{
+    background: none;
+    border: none;
+    cursor: pointer;
+    height: 24px;
+    width: 24px;
+    align-self: last baseline;
+    text-align: right;
+}
+
+.produkt_{
+    width: 1050px;
+    border: 2px black solid;
+    margin: 70px;
+    margin-left: 335px;
+    padding: 20px;
+}
+
+.tekst_{
+    display: flex;
+    font-size: 25px;
+    width: 800px;
+    float: left;
+}
+
+.prawytekst_{
+    float: right;
+    width: 250px;
+    height: 350px;
+    /* background-color: green; */
+    position: relative;
+}
+
+.cena_{
+    font-size: 35px;
+}
+
+.koszyktekst_{
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+    width: 200px;
+    height: 70px;
+    background-color: yellow;
+    text-align: center;
+    color: red;
+    font-size: 23px;
+}
+
+.malyopis_{
+    width: 400px;
+    height: 400px;
+    /* background-color: pink; */
+    display: inline;
+    float: right;
+    align-items: center;
+}
+
+.opis_{
+    width: 1050px;
+    margin: 70px;
+    margin-left: 335px;
+    padding: 20px;
+}

@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+.row{
+    background-color: beige;
+}
+
+.col-8.col-sm-6{
+    background-color: blanchedalmond;
+}
+
+.col{
+    background-color: burlywood;
+}
+.col-sm-3{
+    background-color: darkkhaki;
+}
+
+.col-sm-8{
+    background-color: darksalmon;
+}
+.col-sm-4{
+    background-color: darkseagreen;
+}
+
+.col-sm{
+    background-color: bisque;
+}
